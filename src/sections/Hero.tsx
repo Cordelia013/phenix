@@ -8,6 +8,7 @@ function Hero() {
           className="font-nevan font-bold text-center leading-tight"
           style={{ 
             fontSize: '150px',
+            lineHeight: '0',
             background: 'linear-gradient(180deg, #38548E 0%, #537DC3 100%)',
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',
