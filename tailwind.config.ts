@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        nevan: ["Nevan_RUS", "sans-serif"],
+        nevan: ["Nevan RUS", "sans-serif"],
         "greater-theory": ["Greater_Theory", "serif"],
         tt: ["TT", "monospace"],
       },
