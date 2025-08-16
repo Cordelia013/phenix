@@ -5,7 +5,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        nevan: ["Nevan RUS", "sans-serif"],
+        nevan: ["Nevan_RUS", "sans-serif"],
         "greater-theory": ["Greater_Theory", "serif"],
         tt: ["TT", "monospace"],
       },
