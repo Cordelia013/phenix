@@ -10,7 +10,7 @@ export default {
         tt: ["TT", "monospace"],
       },
       fontSize: {
-        'hero-title': '150px',
+        'hero-title': ['9.375rem', { lineHeight: '1.1' }],
       },
       backgroundImage: {
         'hero-gradient': 'linear-gradient(180deg, #38548E 0%, #537DC3 100%)',
