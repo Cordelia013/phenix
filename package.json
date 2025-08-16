@@ -1,7 +1,24 @@
 {
   "name": "kpop-demon-hunters",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
+  "description": "botw ",
+  "keywords": [
+    "project",
+    "brief",
+    "fictif",
+    "phoenix"
+  ],
+  "homepage": "https://github.com/Cordelia013/phenix#readme",
+  "bugs": {
+    "url": "https://github.com/Cordelia013/phenix/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cordelia013/phenix.git"
+  },
+  "license": "ISC",
+  "author": "delia lab studio",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",

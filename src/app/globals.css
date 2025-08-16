@@ -2,7 +2,7 @@
 @import "tw-animate-css/dist/tw-animate.css";
 
 @font-face {
-  font-family: "Nevan RUS";
+  font-family: "Nevan_RUS";
   src: url("https://db.onlinewebfonts.com/t/107a82b03afe661cb8ef268bd146c38c.eot");
   src: url("https://db.onlinewebfonts.com/t/107a82b03afe661cb8ef268bd146c38c.eot?#iefix")
       format("embedded-opentype"),
@@ -14,6 +14,38 @@
       format("truetype"),
     url("https://db.onlinewebfonts.com/t/107a82b03afe661cb8ef268bd146c38c.svg#Nevan RUS")
       format("svg");
+}
+
+@font-face {
+  font-family: "Greater_Theory";
+  src: url("/fonts/Greater Theory/Greater Theory/Greater Theory.woff2")
+      format("woff2"),
+    url("/fonts/Greater Theory/Greater Theory/Greater Theory.woff")
+      format("woff"),
+    url("/fonts/Greater Theory/Greater Theory/Web Fonts/19e3046f78c63a467cbc0cbfc599e74f.ttf")
+      format("truetype"),
+    url("/fonts/Greater Theory/Greater Theory/Web Fonts/19e3046f78c63a467cbc0cbfc599e74f.eot")
+      format("embedded-opentype"),
+    url("/fonts/Greater Theory/Greater Theory/Web Fonts/19e3046f78c63a467cbc0cbfc599e74f.svg")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT";
+  src: url("/fonts/TT/TT/TT.woff2") format("woff2"),
+    url("/fonts/TT/TT/TT.woff") format("woff"),
+    url("/fonts/TT/TT/Web Fonts/522867f2503f369a259ec9a7885f8302.ttf")
+      format("truetype"),
+    url("/fonts/TT/TT/Web Fonts/522867f2503f369a259ec9a7885f8302.eot")
+      format("embedded-opentype"),
+    url("/fonts/TT/TT/Web Fonts/522867f2503f369a259ec9a7885f8302.svg")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 :root {
@@ -113,7 +145,6 @@
   * {
     border-color: var(--border);
     outline-color: var(--ring);
-   
   }
   body {
     background-color: var(--background);
