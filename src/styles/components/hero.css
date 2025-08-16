@@ -1,0 +1,7 @@
+/* Hero section styles */
+.hero-title-gradient {
+  background: linear-gradient(180deg, #38548E 0%, #537DC3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

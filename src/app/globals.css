@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "../styles/vendor/tw-animate.css";
+@import "../styles/components/hero.css";
 
 @font-face {
   font-family: "Nevan_RUS";
