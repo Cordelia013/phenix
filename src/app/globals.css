@@ -49,6 +49,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Old Standard TT";
+  src: url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);
@@ -148,7 +156,7 @@
     outline-color: var(--ring);
   }
   body {
-    background-color: var(--background);
+    background-color: #E6E4D6;
     color: var(--foreground);
   }
 }
