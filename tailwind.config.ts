@@ -26,9 +26,14 @@ const config: Config = {
         'hero-gradient': 'linear-gradient(180deg, #38548E 0%, #537DC3 100%)',
         'section-gradient': 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
       },
+      animation: {
+        'spin-slow': 'spin 20s linear infinite',
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 };
 
 export default config;

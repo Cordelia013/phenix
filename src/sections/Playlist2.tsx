@@ -6,36 +6,27 @@ export default function Playlist() {
   const [currentTrack, setCurrentTrack] = useState<number | null>(null)
   
   const tracks = [
-    { title: "INTRO", artist: "SAJA BOYS" },
-    { title: "FIRE FLOW", artist: "SAJA BOYS" },
-    { title: "STREET LEGENDS", artist: "SAJA BOYS" },
-    { title: "MONEY MOVES", artist: "SAJA BOYS" },
-    { title: "HUSTLE HARD", artist: "SAJA BOYS" },
-    { title: "CITY LIGHTS", artist: "SAJA BOYS" },
-    { title: "BROTHERHOOD", artist: "SAJA BOYS" },
-    { title: "RISE UP", artist: "SAJA BOYS" },
-    { title: "VICTORY ANTHEM", artist: "SAJA BOYS" },
-    { title: "CELEBRATION", artist: "SAJA BOYS" },
-    { title: "LEGACY", artist: "SAJA BOYS" },
-    { title: "OUTRO", artist: "SAJA BOYS" }
+    { title: "OPENING THEME", artist: "HUNTR/X" },
+    { title: "DEMON SLAYER", artist: "HUNTR/X" },
+    { title: "NEON NIGHTS", artist: "HUNTR/X" },
+    { title: "SEOUL CITY LIGHTS", artist: "HUNTR/X" },
+    { title: "BATTLE ROYALE", artist: "HUNTR/X" },
+    { title: "SHADOW DANCE", artist: "HUNTR/X" },
+    { title: "ELECTRIC DREAMS", artist: "HUNTR/X" },
+    { title: "FINAL SHOWDOWN", artist: "HUNTR/X" },
+    { title: "VICTORY LAP", artist: "HUNTR/X" },
+    { title: "ENCORE", artist: "HUNTR/X" },
+    { title: "CREDITS ROLL", artist: "HUNTR/X" },
+    { title: "BONUS TRACK", artist: "HUNTR/X" }
   ]
 
   return (
-    <div className="min-h-dvh bg-[#0d0d0d] text-[#f2f2f2] flex flex-col pb-10">
+    <div className="min-h-dvh bg-[#0d0d0d] text-[#f2f2f2] flex flex-col pb-10 ">
       {/* Header */}
-           {/* Section image 8.jpg */}
-        {/* Section image 8.jpg */}
-        <section className="w-full">
-          <img 
-            src="/image 8.jpg" 
-            alt="SAJA BOYS - Image promotionnelle"
-            className="w-full h-auto object-cover"
-          />
-      </section>
       <header className="flex justify-center px-4 pt-10">
         <h1 className="font-nevan font-normal text-center bg-gradient-to-b from-[#38548E] to-[#537DC3] bg-clip-text text-transparent"
             style={{ fontSize: '150px', lineHeight: '80%', letterSpacing: '0%' }}>
-          SAJA <br /> BOYS
+          HUNTR/X
         </h1>
       </header>
 
@@ -82,8 +73,8 @@ export default function Playlist() {
               <article>
                 <div className="relative group">
                   <img 
-                    src="/photo4.jpg" 
-                    alt="SAJA BOYS – Album officiel"
+                    src="/photo3.jpg" 
+                    alt="K-POP DEMON HUNTERS – Bande originale Netflix"
                     className="w-full rounded-[20px] shadow-xl"
                   />
                 </div>
@@ -151,8 +142,6 @@ export default function Playlist() {
           </div>
         </aside>
       </div>
-
- 
     </div>
   )
 }
