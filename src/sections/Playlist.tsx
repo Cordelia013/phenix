@@ -26,7 +26,7 @@ export default function Playlist() {
 
   useEffect(() => {
     if (audioRef.current) {
-      if (currentTrack !== null && tracks[currentTrack].audio) {
+      if (currentTrack !== null && tracks[currentTrack]?.audio) {
         audioRef.current.src = tracks[currentTrack].audio
         if (isPlaying) {
           audioRef.current.play()
@@ -35,7 +35,7 @@ export default function Playlist() {
         audioRef.current.pause()
       }
     }
-  }, [currentTrack, isPlaying])
+  }, [currentTrack, isPlaying, tracks])
 
   const handlePlayPause = (index: number) => {
     if (tracks[index].disabled) return

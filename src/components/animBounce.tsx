@@ -10,7 +10,7 @@ interface AnimBounceProps {
 export default function AnimBounce({ isPlaying, children }: AnimBounceProps) {
   const [bounce, setBounce] = useState(0)
   const [particles, setParticles] = useState<Array<{ id: number; x: number; y: number; size: number }>>([])
-  const animationRef = useRef<number>()
+  const animationRef = useRef<number | undefined>(undefined)
 
   useEffect(() => {
     if (!isPlaying) {
