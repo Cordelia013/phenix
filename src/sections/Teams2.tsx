@@ -59,14 +59,14 @@ function Teams2() {
             </div>
           </div>
         </section>
-        <section className="min-h-screen w-full flex items-center justify-center" style={{ marginTop: "-2rem" }}>
-          <div className="w-full">
+        <section className="w-full flex items-center justify-center" style={{ height: "780px", marginTop: "-2rem" }}>
+          <div className="w-full h-full">
             <Image
               src="/image 24.jpg"
               alt="image 24"
               width={1920}
-              height={600}
-              className="w-full h-auto object-cover"
+              height={780}
+              className="w-full h-full object-cover"
             />
           </div>
         </section>

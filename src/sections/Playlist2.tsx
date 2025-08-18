@@ -55,7 +55,7 @@ export default function Playlist() {
   }
 
   return (
-    <div className="min-h-[105vh] bg-[#0d0d0d] text-[#f2f2f2] overflow-hidden relative">
+    <div className="min-h-[105vh] bg-[#0d0d0d] text-[#f2f2f2] overflow-hidden relative -mt-1">
       {/* Container avec header et vinyles */}
       <div className="relative">
         {/* Header */}
@@ -67,7 +67,7 @@ export default function Playlist() {
         </header>
 
         {/* Contenu avec vinyles - positionnement absolu pour chevaucher */}
-        <div className="absolute top-0 left-0 right-0 flex justify-between items-center h-[700px] pointer-events-none overflow-hidden">
+        <div className="absolute top-0 left-0 right-0 flex justify-between items-center h-[700px] pointer-events-none overflow-hidden" style={{ marginTop: '-5px' }}>
           {/* Vinyle gauche */}
           <aside className="flex items-center h-full relative pointer-events-auto" style={{ transform: 'translateX(-50%)' }}>
             <AnimBounce isPlaying={isPlaying}>
